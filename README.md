@@ -21,12 +21,13 @@ Dazu vermitteln wir Grundlagenkenntnisse, einen allgemeinen Projekt-Workflow und
 * Key take-aways
 
 ## Installation
+Folgt in Kürze!
 
 ## Links & Informationen
+Folgt in Kürze!
 
 ## Fragen & Hilfe
 Sollten Sie Fragen zur Installation, Vorbereitung oder zum Workshop selbst haben, können Sie sich jederzeit an mich wenden: fabian.witt@redheads.de
-
 
 ### Fabian Witt
 Fabian Witt hat seinen Master in Data & Knowledge Engineering an der Otto-von-Guericke-Universität Magdeburg gemacht. 
