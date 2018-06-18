@@ -1,4 +1,4 @@
-# Machine Learning 101 - Datenanalyse abseits des Hypes
+# Machine Learning 101: Datenanalyse abseits des Hypes
 
 Durch die Digitalisierung, das Internet of Things und die Industrie 4.0 fallen immer größere Datenmengen an. 
 Die Auswertung durch Menschen ist schon lange undenkbar geworden, doch wie können sie sinnvoll genutzt werden, statt im Archiv zu verstauben? 
