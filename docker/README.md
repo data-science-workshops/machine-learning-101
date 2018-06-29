@@ -25,12 +25,12 @@ docker build . -f Dockerfile -t ml_workshop_container
 After the build process was successfully done you can run the container.
 
 ```sh
-docker run -it -p 8888:8888 -p 6006:6006 -d -v <absolute/path/to>/machine-learning-101/notebooks:/notebooks ml_workshop_container
+docker run -it -p 8888:8888 -p -d -v <absolute/path/to>/machine-learning-101/notebooks:/notebooks ml_workshop_container
 ```
 
 ## Use Image from DockerHub
 ```sh
-docker run -it -p 8888:8888 -p 6006:6006 -d -v <absolute/path/to>/machine-learning-101/notebooks:/notebooks datascienceworkshop/machine-learning-101
+docker run -it -p 8888:8888 -p -d -v <absolute/path/to>/machine-learning-101/notebooks:/notebooks datascienceworkshop/machine-learning-101
 ```
 
 We're using the following parameters:
