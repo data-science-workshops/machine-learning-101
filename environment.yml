@@ -14,5 +14,6 @@ dependencies:
   - notebook
   - jupyterlab
   - pip:
+    - plotly
     - graphviz==0.8.3
     - pydotplus==2.0.2
