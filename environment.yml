@@ -17,3 +17,4 @@ dependencies:
     - plotly
     - graphviz==0.8.3
     - pydotplus==2.0.2
+    - imbalanced-learn==0.3.3
