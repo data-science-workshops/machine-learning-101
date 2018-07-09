@@ -6,8 +6,6 @@ LABEL maintainer="Fabian Witt <fabian.witt@t-online.de>"
 # ENV https_proxy=
 
 RUN apt-get update && apt-get install -y \
-    libpq-dev \
-    build-essential \
     && rm -rf /var/lib/apt/lists/*
 
 RUN ["mkdir", "notebooks"]
@@ -15,7 +13,7 @@ RUN ["mkdir", "notebooks"]
 ADD environment.yml environment.yml
 
 RUN /opt/conda/bin/conda env update -n base -f environment.yml && \
-    /opt/conda/bin/conda clean -tipsy
+    /opt/conda/bin/conda clean -ayq
 
 COPY conf/.jupyter /root/.jupyter
 COPY run_jupyter.sh /
