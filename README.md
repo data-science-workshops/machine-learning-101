@@ -9,8 +9,7 @@ Dazu vermitteln wir Grundlagenkenntnisse, einen allgemeinen Projekt-Workflow und
 
 ## Agenda
 * Einführung Machine Learning
-* Einführung in den Datensatz
-* Machine Learning Definition & Workflow
+* Machine Learning Workflow
 * Raw Data Collection
 * Pre-Processing
 * Sampling
@@ -18,7 +17,6 @@ Dazu vermitteln wir Grundlagenkenntnisse, einen allgemeinen Projekt-Workflow und
 * Model Evaluation
 * Hyperparameter Optimization
 * Deployment
-* Key take-aways
 
 ## Installation
 Eine Anleitung zur Installation finden Sie [hier](INSTALLATION.md)
@@ -33,3 +31,8 @@ Sollten Sie Fragen zur Installation, Vorbereitung oder zum Workshop selbst haben
 Fabian Witt hat seinen Master in Data & Knowledge Engineering an der Otto-von-Guericke-Universität Magdeburg gemacht.
 In dieser Zeit hat er sich speziell mit Themen wie Maschinellem Lernen, Data Mining und Schwarmintelligenz befasst.
 Bei der Firma [Redheads Ltd.](https://www.redheads.de/) ist er als Technical Lead für den Bereich Data Science verantwortlich.
+
+### Jonathan Staufer
+Jonathan Staufer hat seinen Master in Wirtschaftsinformatik an der Technischen Hochschule Nürnberg Georg Simon Ohm absolviert.
+Im Rahmen seines Studiums hat er sich unter anderem mit Themen Machine Learning, Big Data und Internationales Softwareengineering befasst.
+Bei der Firma [Redheads Ltd.](https://www.redheads.de/) ist er als Softwareentwickler und Junior Data Scientist Teil des Data-Science-Teams.
