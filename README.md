@@ -27,6 +27,8 @@ Weitere Informationen zum Thema Künstliche Intelligenz und Maschinelles Lernen 
 ## Fragen & Hilfe
 Sollten Sie Fragen zur Installation, Vorbereitung oder zum Workshop selbst haben, können Sie sich jederzeit an mich wenden: fabian.witt@redheads.de
 
+## Dozenten
+
 ### Fabian Witt
 Fabian Witt hat seinen Master in Data & Knowledge Engineering an der Otto-von-Guericke-Universität Magdeburg gemacht.
 In dieser Zeit hat er sich speziell mit Themen wie Maschinellem Lernen, Data Mining und Schwarmintelligenz befasst.
