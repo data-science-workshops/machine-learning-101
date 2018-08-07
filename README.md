@@ -35,4 +35,4 @@ Bei der Firma [Redheads Ltd.](https://www.redheads.de/) ist er als Technical Lea
 ### Jonathan Staufer
 Jonathan Staufer hat seinen Master in Wirtschaftsinformatik an der Technischen Hochschule Nürnberg Georg Simon Ohm absolviert.
 Im Rahmen seines Studiums hat er sich unter anderem mit Themen Machine Learning, Big Data und Internationales Softwareengineering befasst.
-Bei der Firma [Redheads Ltd.](https://www.redheads.de/) ist er als Softwareentwickler und Junior Data Scientist Teil des Data-Science-Teams.
+Bei der Firma [Redheads Ltd.](https://www.redheads.de/) ist er als Softwareentwickler und Data Scientist Teil des Data-Science-Teams.
