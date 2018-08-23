@@ -1,4 +1,5 @@
 import numpy as np
+import seaborn as sns
 import matplotlib.pyplot as plt
 import itertools
 from sklearn.model_selection import learning_curve
@@ -7,19 +8,23 @@ from sklearn.model_selection import learning_curve
 def plot_confusion_matrix(cm, classes,
                           normalize=False,
                           title='Confusion matrix',
-                          cmap=plt.cm.Blues):
+                          cmap=plt.cm.Blues,
+                          figsize=(15, 10)):
     """
     http://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html
 
     This function prints and plots the confusion matrix.
     Normalization can be applied by setting `normalize=True`.
     """
+    np.set_printoptions(precision=2)
+
     cm_org = cm
 
     if normalize:
         cm = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
         title += ' (normalisiert)'
 
+    plt.figure(figsize=figsize)
     plt.imshow(cm, interpolation='nearest', cmap=cmap)
     plt.title(title)
     plt.colorbar()
@@ -108,3 +113,14 @@ def plot_learning_curve(estimator, title, X, y, ylim=None, cv=None,
 
     plt.legend(loc="best")
     return plt
+
+
+def plot_missing_values(df, figsize=(15, 10)):
+    fig, ax = plt.subplots(1, 1, figsize=figsize)
+    sns.barplot(x=df.columns, y=(df.isnull().sum() / df.shape[0]) * 100)
+    ax.set(xlabel='Merkmale', ylabel='Anteil fehlender Werte in Prozent')
+
+    for p in ax.patches:
+        x = p.get_bbox().get_points()[:, 0]
+        y = p.get_bbox().get_points()[1, 1]
+        ax.annotate('{:3.0f}%'.format(y), (x.mean(), y), ha='center', va='bottom')
